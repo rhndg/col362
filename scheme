@@ -1,0 +1,91 @@
+dbs---------
+
+user -
+private:
+	uid
+public:
+	name
+	address
+	dob 
+	mobile number (handle)
+	password
+	profilepic
+
+
+driver-
+private:
+	drvid
+public:
+	rating
+	name
+	address
+	dob
+	mobile number
+	password
+	car no
+	car type
+	licence no
+
+
+
+admin-
+private:
+	admin id
+public:
+	name
+	address
+	dob
+	username
+	password
+
+
+bookings-
+	uid
+	drvid
+	time
+	start
+	end
+	status
+
+
+views-------
+
+admin login--
+	username
+	password
+
+
+login page for user and driver--
+standard 
+	mobile 
+	password
+
+signup page--
+	user
+
+user view--
+	profile details
+	bookings(completed current future{no driver}[delete])
+		on existing booking 
+			delete
+			rate
+		add
+
+driver view--
+	profile details
+	bookings
+	rating
+
+admin view--
+	user table
+		delete
+	driver table
+		add
+		delete
+	booking table
+		delete
+
+super admin--
+	admin table
+		add
+		delete
